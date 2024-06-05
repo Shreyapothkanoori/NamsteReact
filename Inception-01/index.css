@@ -1,3 +1,73 @@
-#heading{
-    color:red;
+.logo{
+    height: 100px;
+    width:100px;
+    margin:4px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+    background-color: rgb(187, 141, 185);
+}
+.nav-items{
+    margin-right: 20px;
+}
+.nav-items > ul{
+    display:flex;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.nav-items > ul > li{
+    margin:10px;
+    padding:10px;
+}
+
+.res-card{
+    
+    width:250px;
+    
+    margin:10px;
+    background-color: rgb(186, 195, 210);
+}
+
+.res-card:hover{
+    cursor: pointer;
+    border:1px solid black;
+}
+
+.restimg{
+    height:200px;
+    width:250px;
+}
+
+.resto-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.search{
+    display:flex;
+    height:70px;
+    width:max;
+    border:1px solid black;
+    justify-content: center;
+    margin: 10px;;
+    
+}
+
+.inp{
+    width:600px;
+    margin:10px;
+
+}
+
+.searchbtn{
+    margin:10px;
+    width:100px;
+    background-color: rgb(167, 142, 212);
+    border:none
 }
