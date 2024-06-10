@@ -71,3 +71,15 @@
     background-color: rgb(167, 142, 212);
     border:none
 }
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width:250px;
+    height:350px;
+    margin:10px;
+    background-color: rgb(236, 230, 220);
+}
